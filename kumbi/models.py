@@ -113,4 +113,3 @@ class Latest(models.Model):
 
 
 
-
