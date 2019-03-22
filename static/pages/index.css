@@ -1,0 +1,144 @@
+.space{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.space1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@font-face{
+    src: url(../fonts/Kaushan.ttf);
+    font-family: logo;
+}
+#lev1{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../../imgs/bg/1.jpg);
+}
+#lev1 .row{
+	color: #fff;
+	height: 95vh;
+	padding-top: 150px;
+	background-color: rgba(0,0,0,0.3);
+}
+@media only screen and (max-width: 900px) {
+  #lev1 .row{
+		padding-top: 25px;
+	}								
+}
+
+#lev1 h1{
+	font-weight: normal;
+}
+#lev1 p{
+	color: gold;
+	font-family: logo;
+	font-size: xx-large;
+}
+#lev1 form{}
+#lev1 form .input-group-text{
+	color: #fff;
+	border-radius: 0px;
+	background-color: #111;
+}
+#lev1 form input{
+	color: #fff;
+	border-radius: 0px;
+	background-color: transparent;
+}
+#lev1 form{}
+#lev1 .btn{
+	width: 300px;
+	margin-bottom: 25px;
+}
+
+
+#lev2{}
+#lev2 h5{
+	color: gold;
+}
+#lev2 .col-md-6{
+	margin-bottom: 50px;
+}
+#lev2 img{
+	width: 200px;
+	height: 100px;
+}
+#lev2 .media-body{
+	padding-left: 20px;
+}
+#lev2 .media-body p{
+	font-size: 14px;
+}
+#lev2{}
+
+
+#lev3{}
+#lev3{
+	background-color: #f8f9fa;
+}
+#lev3 .fa-stack{
+	color: rgba(255,191,0,75);
+	font-size: 60px;
+}
+#lev3 .fa-stack-1x{
+	text-shadow: 0px 0px 10px #bbb;
+}
+#lev3{}
+
+
+#lev4{}
+#lev4{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../../imgs/bg/1.jpg);
+}
+#lev4 .row{
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: rgba(0,0,0,0.3);
+}
+#lev4 form input{
+	color: gold;
+	border-radius: 0px;
+	background-color: transparent;
+}
+#lev4{}
+
+
+#lev5{}
+#lev5{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#lev5 a h4{
+	color: #333!important;
+}
+#lev5 .card{
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+#lev5 .card:hover{
+	box-shadow: 3px 3px 5px #ddd;
+}
+#lev5 h2 a{
+	color: gold;
+	font-size: medium;
+	text-shadow: 1px 1px 3px #ccc;
+}
+#lev5{}
+
+#lev2{}
+#lev2{}
+#lev2{}
+#lev2{}
+#lev2{}
+#lev2{}
+#lev2{}
+#lev2{}
+#lev2{}
+#lev2{}

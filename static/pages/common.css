@@ -1,0 +1,127 @@
+@font-face{
+    src: url(../fonts/Kaushan.ttf);
+    font-family: logo;
+}
+#logotop{
+    color: gold !important;
+    font-family: logo!important;
+
+}
+#logobtm{
+    color: gold !important;
+    font-family: logo!important;
+}
+a{
+    cursor: pointer;
+    text-decoration: none!important;
+}
+@media only screen and (max-width: 900px) {
+  #lev1 .row{
+        padding-top: 25px;
+    }                               
+}
+  /*affects navigation */
+
+ /* Add a dark background color with a little bit see-through */
+.navbar {
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #0099bd !important;
+    background-color: transparent!important;
+}
+.navbar-nav li a.highlight {
+    color: gold !important;
+    background-color: transparent!important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+  /*affects navigation */
+
+ /* form effect */
+
+ .paper{
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #ddd;
+ }
+
+.info-box{
+    background: white;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 3px #eee;
+}
+.info-box .box{
+    padding: 10px;
+}
+
+
+
+ #footer{
+    color: #ddd;
+    background-color: #333;
+ }
+ #footer .pad_left{
+    padding-left: 40px;
+ }
+ #footer .complogo{
+    color: gold;
+ }
+ #footer .other_nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ #footer .other_nav a{
+    color: #fff;
+    display: inline-block;
+ }
+ #footer .contact{
+    color: white;
+ }
+ #footer .contact .fa-circle{
+   color: #444;
+ }
+  #footer .contact .pad{
+   padding-top: 10px;
+   padding-left: 10px;
+ }
+#footer .contact .pad1{
+   padding-top: 0px;
+   padding-left: 10px;
+ }
+ #footer .soc_media div{
+    margin-top: 10px;
+ }
+ #footer .soc_media h6{
+    color: #fff;
+ }
+ #footer .soc_media a{
+    color: white;
+    padding:10px;
+    background-color: #444;
+ }
+ #footer{}
+ #footer{}
+ #footer{}
+ #footer{}

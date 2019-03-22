@@ -1,0 +1,116 @@
+body{
+	background: #f8f9fa;
+}
+#form_progress{
+	margin-top: 50px;
+}
+#form_progress .progress .fir_last{
+	width: 0%;
+}
+#form_progress .progress .s_last{
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-name: mymoves;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: mymoves;
+    animation-duration: 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymoves {
+    from {width: 0%;}
+    to {width: 20%;}
+}
+@keyframes mymoves{
+    from {width: 0%;}
+    to {width: 20%;}
+}
+
+#form_progress .progress .t_last{
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-name: mymovet;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: mymovet;
+    animation-duration: 5s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymovet {
+    from {width: 0%;}
+    to {width: 40%;}
+}
+@keyframes mymovet{
+    from {width: 0%;}
+    to {width: 40%;}
+}
+
+#form_progress .progress .for_last{
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-name: mymovefor;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: mymovefor;
+    animation-duration: 5s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymovefor {
+    from {width: 0%;}
+    to {width: 60%;}
+}
+@keyframes mymovefor{
+    from {width: 0%;}
+    to {width: 60%;}
+}
+
+#form_progress .progress .p_last{
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-name: mymovep;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: mymovep;
+    animation-duration: 5s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymovep {
+    from {width: 0%;}
+    to {width: 80%;}
+}
+@keyframes mymovep{
+    from {width: 0%;}
+    to {width: 80%;}
+}
+
+#form_progress .progress .pol_last{
+    -webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: forwards;  /* Chrome, Safari, Opera */
+    -webkit-animation-name: mymovepol;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: mymovepol;
+    animation-duration: 5s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymovepol {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+@keyframes mymovepol{
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
+.uploaded_img{
+	width: 100%!important;
+	height: 100px;
+	object-fit: cover;
+    margin-bottom: 20px;
+}

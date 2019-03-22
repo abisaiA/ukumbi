@@ -1,0 +1,122 @@
+.space{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.space1{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@font-face{
+    src: url(../fonts/Kaushan.ttf);
+    font-family: logo;
+}
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,fcfcfc+49,ffffff+52,f7f7f7+100 */
+background: #f7f7f7; /* Old browsers */
+background: -moz-linear-gradient(top, #f7f7f7 1%, #fcfcfc 49%, #ffffff 52%, #f7f7f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f7f7f7 1%,#fcfcfc 49%,#ffffff 52%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f7f7f7 1%,#fcfcfc 49%,#ffffff 52%,#f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+}
+#lev1{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../../imgs/bg/1.jpg);
+}
+#lev1 .row{
+	color: #fff;
+	height: 50vh;
+	padding-top: 75px;
+	background-color: rgba(0,0,0,0.3);
+}
+@media only screen and (max-width: 900px) {
+  #lev1 .row{
+		padding-top: 25px;
+	}								
+}
+#lev1 h1{
+	color: gold;
+	font-family: logo;
+	font-weight: normal;
+}
+#lev1 p b{
+	color: gold;
+}
+
+
+#lev2{}
+#lev2 .col-md-3 .side_activites{
+}
+#lev2 .col-md-6 .main_activity{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#lev2 .col-md-3 h4{
+	color: #fff;
+	padding: 10px;
+	background-color: gold;	
+}
+#lev2 .col-md-3 i{
+	color: gold;
+}
+#lev2 .col-md-6 i{
+	color: green;
+}
+#lev2 .big-img img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+#lev2 .small-img{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#lev2 .small-img .col-md-2{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#lev2 .small-img img{
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+#policy .media-left{
+		padding-right: 10px;
+}
+#tags{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#tags a{
+	color: #666;
+	padding: 5px;
+	transition: linear 0.3s;
+	background-color: #eee;
+}
+#tags a:hover{
+	color: gold;
+	box-shadow: 0px 0px 5px #aaa;
+}
+#video{
+	background: white;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 3px #eee;
+}
+#video iframe{
+	width: 100%;
+	height: 400px;
+}
+#googleMap iframe{
+	width: 100%;
+	height: 400px;
+	border: 0px;
+}
+#lev2{}
+
+#lev2{}
+#lev2{}
